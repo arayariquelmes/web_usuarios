@@ -24,4 +24,11 @@ Ejecutar migraciones (actualizacion de la base de datos)
 
     python manage.py createsuperuser --email admin@duoc.cl --username admin
 
+##Importante: Instalar django cors headers
+
+`python -m pip install django-cors-headers`
+
+##Debe ser agregado a apps y a middleware
+##En settings agregar CORS_ALLOW_ALL_ORIGINS = True
+
 
